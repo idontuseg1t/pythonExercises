@@ -234,7 +234,7 @@ Extension: Detect when there is no “the” and print an appropriate message.
 ''' I'm using the index method anyway even if the hint says not to '''
 
 def theFinder(text):
-	findthe = f"The first`qsqwwwdddeef the is at {text.index('the')}"
+	findthe = f"The first the is at {text.index('the')}"
 	return findthe
 
 if __name__ == "__main__":
